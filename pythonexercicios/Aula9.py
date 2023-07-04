@@ -1,0 +1,16 @@
+frase = 'ESTOU ESTUDANDO PYTHON'
+print(frase)
+print(frase.capitalize())
+print(len(frase))
+print('PYTHON' in frase)
+print(frase.replace('PYTHON', 'BASTANTE'))
+print(frase.upper())
+print(frase.lower())
+print(frase.capitalize())
+print(frase.title())
+print(frase.strip())
+print(frase.rstrip())
+print(frase.lstrip())
+print(frase.split())
+print('-'.join(frase))
+
