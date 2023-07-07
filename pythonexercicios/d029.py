@@ -5,9 +5,9 @@
 vel = float(input('Em qual velocidade vc passou: '))
 
 if vel > 80:
-
     print('Vc foi MULTADO')
-    print('SUa multa vai custar: {}'.format(??))
+    multa = (vel-80)*7
+    print('Sua multa vai custar: R${:.2f}'.format(multa))
 else:
     print('Ta tranquilo, vc não foi multado')
-
+print('Dirija com segurança.')
