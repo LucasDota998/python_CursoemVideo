@@ -2,4 +2,4 @@
 n = int(input('Digite um número:'))
 ns = (n + 1)
 na = (n - 1)
-print('O sucessor do numero é {} e o antecessor do número é {}'.format(ns, na))
+print('O sucessor do numero é \033[32m{}\033[m e o antecessor do número é \033[31m{}\033[m'.format(ns, na))
