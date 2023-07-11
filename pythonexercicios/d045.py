@@ -1,6 +1,17 @@
 """Crie um programa que faça o computador jogar jokenpô com vc """
 import random
-eu = str(input('JOKEEEEEEN-PO: '))
+from time import sleep
+eu = str(input('''======JOKEEEEEEN-PO:======  
+Escolha uma opção:
+==pedra==
+==papel==
+==tesoura==
+Sua opção: '''))
+print('JO...')
+sleep(1)
+print('KEN...')
+sleep(1)
+print('PO!!!')
 lista = ['pedra', 'papel', 'tesoura']
 pc = random.choice(lista)
 
