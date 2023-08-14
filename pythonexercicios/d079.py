@@ -16,4 +16,3 @@ while True:
 print(f'Os valores ineditos adicionas em ordem crescente são: {sorted(lista)}')
 
 
-    
